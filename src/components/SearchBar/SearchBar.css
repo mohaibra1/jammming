@@ -1,0 +1,30 @@
+.input {
+	height: 50px;
+	width: 250px;
+    border-radius: 2px;
+    text-align: center;
+}
+ .searchbar {
+	display: flex;
+	flex-direction: column;
+	margin-top: -250px;
+	gap: 20px;
+}
+
+.button  {
+    color: white;
+	height: 40px;
+	margin-left: 70px; 
+	cursor: pointer;
+    width:8.11rem;
+    padding: 0.77rem 0;
+    border-radius: 54px;
+    background-color: #010c3f;
+    text-align: center;
+    font-size: .833rem;
+}
+
+.button:hover {
+    background-color: rgba(108, 65, 233, .7);
+    transition: .25s;
+}
