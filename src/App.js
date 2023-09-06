@@ -1,6 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import SearchBarContainer from './components/SearchBar/SearchBarContainer';
+import React, {useState, useEffect} from 'react';
 
 const hardCodedTrackList = [{
   id: 1,
@@ -18,6 +18,11 @@ const hardCodedTrackList = [{
 ]
 
 function App() {
+ const [posts, setPosts] = useState([]);
+
+ useEffect();
+
+
   return (
     <div className="App">
       <header className="App-header">
