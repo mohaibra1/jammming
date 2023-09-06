@@ -1,10 +1,9 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import styles from './SearchResults.scss';
+import styles from './SearchResults.css';
 
-const SearchResults = props => (
-	<div>This is a component called SearchResults.</div>
-);
+const SearchResults = props => {
+	return <div>This is a component called SearchResults.</div>
+};
 
 // todo: Unless you need to use lifecycle methods or local state,
 // write your component in functional form as above and delete
@@ -15,10 +14,5 @@ const SearchResults = props => (
 //   }
 // }
 
-const SearchResultsPropTypes = {
-	// always use prop types!
-};
-
-SearchResults.propTypes = SearchResultsPropTypes;
 
 export default SearchResults;

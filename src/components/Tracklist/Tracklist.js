@@ -1,10 +1,9 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import styles from './Tracklist.scss';
+import styles from './Tracklist.css';
 
-const Tracklist = props => (
-	<div>This is a component called Tracklist.</div>
-);
+const Tracklist = props => {
+	return <div>This is a component called Tracklist.</div>
+};
 
 // todo: Unless you need to use lifecycle methods or local state,
 // write your component in functional form as above and delete
@@ -15,10 +14,5 @@ const Tracklist = props => (
 //   }
 // }
 
-const TracklistPropTypes = {
-	// always use prop types!
-};
-
-Tracklist.propTypes = TracklistPropTypes;
 
 export default Tracklist;

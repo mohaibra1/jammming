@@ -1,10 +1,17 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import styles from './SearchBar.scss';
+import   './SearchBar.css';
 
-const SearchBar = props => (
-	<div>This is a component called SearchBar.</div>
-);
+
+
+const SearchBar = props => {
+	return (
+		<div className='searchbar'>
+			<input className='input' type='text' onChange={props.onChange} placeholder='Enter A Song Title' />
+			<button type='submit' className='button'>Search</button>
+		</div>
+	
+	);
+}
 
 // todo: Unless you need to use lifecycle methods or local state,
 // write your component in functional form as above and delete
@@ -15,10 +22,5 @@ const SearchBar = props => (
 //   }
 // }
 
-const SearchBarPropTypes = {
-	// always use prop types!
-};
-
-SearchBar.propTypes = SearchBarPropTypes;
 
 export default SearchBar;
